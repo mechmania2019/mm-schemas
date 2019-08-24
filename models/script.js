@@ -4,8 +4,7 @@ const timestamps = require('mongoose-timestamp')
 const ScriptSchema = new Schema({
   key: { type: String, required: true, unique: true },
   url: { type: String, required: true, unique: true },
-  owner: { type: SchemaTypes.ObjectId, ref: 'Team' },
-  pushtime: { type: Date, required: true, unique: false }
+  owner: { type: SchemaTypes.ObjectId, ref: 'Team' }
 })
 
 ScriptSchema.methods.canBeAccessedBy = function(team) {
