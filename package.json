@@ -1,26 +1,11 @@
 {
   "name": "mm-schemas",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "dependencies": {
     "cuid": "2.1.4",
     "mongoose": "5.0.7",
     "mongoose-timestamp": "0.6.0",
     "validator": "9.4.1"
   },
-  "main": "index.js",
-  "description": "2019 Update to mm-schemas",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mechmania2019/mm-schemas.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mechmania2019/mm-schemas/issues"
-  },
-  "homepage": "https://github.com/mechmania2019/mm-schemas#readme"
+  "main": "index.js"
 }
