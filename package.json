@@ -1,11 +1,11 @@
 {
   "name": "mm-schemas",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "dependencies": {
-    "cuid": "2.1.4",
-    "mongoose": "5.0.7",
+    "cuid": "2.1.6",
+    "mongoose": "5.7.1",
     "mongoose-timestamp": "0.6.0",
-    "validator": "9.4.1"
+    "validator": "11.1.0"
   },
   "main": "index.js"
 }
