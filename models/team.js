@@ -11,6 +11,7 @@ const TeamSchema = new Schema({
     validate: [isEmail, "Invalid Email"]
   },
   latestScript: { type: SchemaTypes.ObjectId, ref: "Script" },
+  mostRecentPush: { type: SchemaTypes.ObjectId, ref: "Script" },
   admin: { type: Boolean, default: false },
   token: {
     type: String,
